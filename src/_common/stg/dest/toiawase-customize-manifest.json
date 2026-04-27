@@ -1,0 +1,32 @@
+{
+    "app": "147",
+    "scope": "ALL",
+    "desktop": {
+        "js": [
+            "src/_common/_lib/sweetAlert2/js/sweetalert2@9.min.js",
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/_lib/snc/js/common.utils.js",
+            "src/_common/_lib/snc/js/setupConfig.js",
+            "src/お問合せ管理/desktop/js/toiawase.js",
+            "src/_common/_lib/tab/js/tab.js"
+        ],
+        "css": [
+            "src/_common/_lib/sweetAlert2/css/sweetalert2.min.css",
+            "src/_common/_lib/snc/css/common.css",
+            "src/_common/_lib/tab/css/tab.css"
+        ]
+    },
+    "mobile": {
+        "js": [
+            "src/_common/_lib/sweetAlert2/js/sweetalert2@9.min.js",
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/_lib/snc/js/common.utils.js",
+            "src/_common/_lib/snc/js/setupConfig.js",
+            "src/お問合せ管理/mobile/js/mobile.toiawase.js"
+        ],
+        "css": [
+            "src/_common/_lib/sweetAlert2/css/sweetalert2.min.css",
+            "src/_common/_lib/snc/css/common.css"
+        ]
+    }
+}

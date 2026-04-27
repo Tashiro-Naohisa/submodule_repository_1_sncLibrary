@@ -1,0 +1,30 @@
+{
+    "app": "150",
+    "scope": "ALL",
+    "desktop": {
+        "js": [
+            "src/_common/_lib/sweetAlert2/js/sweetalert2@9.min.js",
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/_lib/snc/js/common.utils.js",
+            "src/_common/_lib/snc/js/setupConfig.js",
+            "src/予算・実績表設定/desktop/js/yojitsuSetting.js"
+        ],
+        "css": [
+            "src/_common/_lib/sweetAlert2/css/sweetalert2.min.css",
+            "src/_common/_lib/snc/css/common.css"
+        ]
+    },
+    "mobile": {
+        "js": [
+            "src/_common/_lib/sweetAlert2/js/sweetalert2@9.min.js",
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/_lib/snc/js/common.utils.js",
+            "src/_common/_lib/snc/js/setupConfig.js",
+            "src/予算・実績表設定/mobile/js/mobile.yojitsuSetting.js"
+        ],
+        "css": [
+            "src/_common/_lib/sweetAlert2/css/sweetalert2.min.css",
+            "src/_common/_lib/snc/css/common.css"
+        ]
+    }
+}

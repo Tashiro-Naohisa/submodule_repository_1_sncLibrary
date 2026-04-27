@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+
+.gaia-components-forms-validationmessage-success, .validator-valid-cybozu{
+	font-size: 0px;
+}

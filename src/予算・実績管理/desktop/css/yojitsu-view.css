@@ -1,0 +1,246 @@
+/**
+ * @author SNC
+ * @version 3.5.0
+ * @customer XXXXX（yyyy-mm-dd）
+ */
+@charset "UTF-8";
+
+#yojitsu_search_item_area {
+    margin: 5px;
+    padding-bottom: 20px;
+    /* border: black solid 2px; */
+}
+
+#yojitsu_search_result_border {
+    margin: 5px;
+    border: solid;
+    border-width: 1px;
+    border-color: #0170ac;
+}
+
+#yojitsu_result_area {
+    margin: 5px;
+    /* border: black solid 2px; */
+}
+
+#yojitsu_result_area table tbody tr td{
+    /* padding: 7px 8px; */
+    padding-left: 8px;
+    padding-right: 8px;
+    /* font-size: 13px; */
+}
+
+#searchCondition-nengetsu-to{
+    margin-left: -68px;
+}
+/* 
+tr.header_row2{
+    border-bottom: black solid 2px;
+} */
+
+.item{
+    overflow: hidden;
+    margin-bottom: 5px;
+  }
+
+.item div {
+    float: left;
+    /* width:500px; */
+}
+
+td.name_cell.title_row {
+    /* padding-left: 8px; */
+    text-align: left !important;
+    background-color: #d9d9d9;
+}
+
+.nok_padding{
+    margin-left: 60px;
+}
+
+/* 
+.item{
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  .search_label{
+    float: left;
+    margin-right: 20px;
+    width:135px;
+
+    padding-left: 10px;
+  }
+  .inputs{
+    float: left;
+    width:300px;
+  } */
+ 
+.row_hide{
+    display: none;
+}
+
+.list_info_area {
+    padding-top: 5px;
+    margin-left: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nok_select {
+    position: relative;
+    box-sizing: border-box;
+    padding-right: 40px;
+    height: 40px;
+    border: 1px solid #e3e7e8;
+    background-color: #f7f9fa;
+    box-shadow: 1px 1px 1px #fff inset;
+    /* color: #3498db; */
+    line-height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+}
+
+label.search_label{
+    font-size: 16px !important;
+    float: left;
+    padding-top: 5px;
+    margin-right: 20px;
+    width:100px;
+    /* border-left: solid 3px #e0505d; */
+    padding-left: 10px;
+}
+
+.header{
+    padding: 2px;
+    width: 150px;
+    height: 35px;
+    font-size: 15px;
+    /* font-weight: bold; */
+    /* font-style: italic; */
+    border: black solid 0.5px;
+    text-align: center;
+    background-color: #ebf1de;
+}
+
+.uriage_cell {
+    /* padding: 2px; */
+    width: 150px;
+    font-size: 13px;
+    background-color: #badbf6;
+    border: black solid 0.5px;
+    padding: 8px;
+    /* text-align: center; */
+    text-align: right;
+}
+
+.arari_cell {
+    /* padding: 2px; */
+    width: 150px;
+    font-size: 13px;
+    padding: 8px;
+    background-color: #fafafa;
+    border: black solid 0.5px;
+    /* text-align: center; */
+    text-align: right;
+}
+
+.name_cell {
+    /* padding: 2px; */
+    width: 200px;
+    font-size: 16px !important;
+    border: black solid 0.5px;
+    text-align: left;
+}
+
+.uriage_header_cell {
+    /* padding: 2px; */
+    width: 50px;
+    /* font-size: 13px; */
+    border: black solid 0.5px;
+    text-align: center;
+}
+
+.arari_header_cell {
+    /* padding: 2px; */
+    width: 50px;
+    /* font-size: 13px; */
+    border: black solid 0.5px;
+    text-align: center;
+}
+
+.year_month_cell {
+    padding: 2px;
+    font-size: 13px;
+    border: black solid 0.5px;
+    text-align: center;
+}
+
+.busho_row {
+    background-color: #ccc;
+    border-top: black double 3px;
+    border-bottom: black solid 3px;
+}
+
+.kyoten_row {
+    background-color: #999 !important;
+}
+
+.shokei_row {
+    background-color: #fde9d9;
+}
+
+.gokei_row {
+    background-color: #daeef3 !important;
+}
+
+.annai_kensu_cell {
+    background-color:#FFFFFF;
+}
+
+.raisha_kensu_cell {
+    background-color: #ffc7ce;
+}
+
+
+.week_sun_cell {
+    background-color: #ffecec;
+}
+
+.week_sat_cell {
+    background-color: #eaeaff;
+}
+
+.row_header_cell{
+    padding: 2px;
+    width: 120px;
+    border: black solid 0.5px;
+    text-align: center;
+}
+
+
+
+
+.nok_button_normal {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 16px;
+    min-width: 163px;
+    height: 48px;
+    outline: none;
+    border: 1px solid #e3e7e8;
+    background-color: #f7f9fa;
+    box-shadow: 1px 1px 1px #fff inset;
+    color: #3498db;
+    text-align: center;
+    line-height: 48px;
+  }
+  
+  .nok_button_normal:hover {
+    background-color: #c8d6dd;
+    box-shadow: none;
+    cursor: pointer;
+  }
+
+
+

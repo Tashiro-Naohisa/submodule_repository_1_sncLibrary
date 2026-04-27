@@ -1,0 +1,22 @@
+{
+    "app": "152",
+    "scope": "ALL",
+    "desktop": {
+        "js": [
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/dev/conf/config.nok.js",
+            "src/商品マスタ/desktop/js/shohinMaster.js",
+            "src/営業レポート/conf/config.return-process-search-dialog.js",
+            "src/_common/_func/return-process-search-dialog/desktop/js/return-process-search-dialog.js"
+        ],
+        "css": []
+    },
+    "mobile": {
+        "js": [
+            "src/_common/dev/conf/config.nok.js",
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/商品マスタ/mobile/js/mobile.shohinMaster.js"
+        ],
+        "css": []
+    }
+}

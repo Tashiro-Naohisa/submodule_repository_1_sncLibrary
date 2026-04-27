@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/**
+ * @fileoverview 作業指示管理アプリ 作業指示カレンダー
+ * @author SNC
+ * @version 1.0.1
+ * @customer （2020-04-15）
+*/
+
+
+/* IE11、Edge での横スクロールバー表示不具合対策 */
+#calendar {
+    margin-right: 1px;
+}
+
+/* 日付<br>曜日 */
+.fc-cell-text {
+    display: inline-block;
+}
+
+/* 日曜日 */
+.fc-sun {
+    background-color: #ffd2d2;
+}
+ 
+/* 土曜日 */
+.fc-sat {
+    background-color: #c0fefe;
+}
+
+/* 祝日・休日 */
+.fc-holiday {
+    background-color: #ffd2d2;
+}

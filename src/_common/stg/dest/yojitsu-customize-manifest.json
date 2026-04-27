@@ -1,0 +1,28 @@
+{
+    "app": "149",
+    "scope": "ALL",
+    "desktop": {
+        "js": [
+            "src/_common/_lib/sweetAlert2/js/sweetalert2@9.min.js",
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/_lib/luxon/js/luxon-3.1.1.min.js",
+            "src/_common/_lib/popper/js/pooper.min.js",
+            "src/_common/_lib/tippy/js/tippy-bundle.umd.min.js",
+            "src/_common/_lib/popModal/js/popModal.min.js",
+            "src/_common/dev/conf/config.nok.js",
+            "src/営業レポート/conf/config.yojitsu.js",
+            "src/予算・実績管理/desktop/js/yojitsu-function.js",
+            "src/予算・実績管理/desktop/js/yojitsu-displayDetail.js",
+            "src/予算・実績管理/desktop/js/yojitsu.js"
+        ],
+        "css": [
+            "src/_common/_lib/cybozu/css/51-us-default.css",
+            "src/_common/_lib/popModal/css/popModal_cstm.css",
+            "src/予算・実績管理/desktop/css/yojitsu-view.css"
+        ]
+    },
+    "mobile": {
+        "js": [],
+        "css": []
+    }
+}

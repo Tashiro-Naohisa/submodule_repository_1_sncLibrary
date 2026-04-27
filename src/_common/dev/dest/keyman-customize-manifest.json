@@ -1,0 +1,65 @@
+{
+    "app": "102",
+    "scope": "ALL",
+    "desktop": {
+        "js": [
+            "src/_common/_lib/sweetAlert2/js/sweetalert2@9.min.js",
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/_lib/jQuery/js/jquery.tabslet.min.js",
+            "src/_common/_lib/jQuery/js/jquery-ui.min.js",
+            "https://js.cybozu.com/font-awesome/v5.15.3/js/all.min.js",
+            "src/_common/_lib/bootstrap/js/bootstrap-datepicker.min.js",
+            "src/_common/_lib/bootstrap/js/bootstrap-datepicker.ja.min.js",
+            "src/_common/_lib/luxon/js/luxon-3.1.1.min.js",
+            "src/_common/_lib/spin/js/spin.min.js",
+            "src/_common/_lib/popModal/js/popModal.min.js",
+            "src/_common/dev/conf/config.nok.js",
+            "src/キーマン管理/conf/config.keyman-customSearch.js",
+            "src/キーマン管理/conf/config.keyman-kokyakuLinkage.js",
+            "src/キーマン管理/conf/config.keyman-nayose.js",
+            "src/キーマン管理/conf/config-like-kanren-record.js",
+            "src/キーマン管理/desktop/js/keyman.js",
+            "src/キーマン管理/desktop/js/keyman-kokyakuLinkage.js",
+            "src/キーマン管理/desktop/js/layerHistory.js",
+            "src/_common/_func/kintone-customSearch/desktop/js/kintone-customSearch.js",
+            "src/キーマン管理/desktop/js/keyman-nayose.js",
+            "src/_common/_func/like-kanren-record/desktop/js/like-kanren-record.js",
+            "src/キーマン管理/conf/config.keyman-single-search-dialog.js",
+            "src/_common/_func/single-search-dialog/desktop/js/single-search-dialog.js",
+            "src/キーマン管理/conf/config.keyman-return-process-search-dialog.js",
+            "src/_common/_func/return-process-search-dialog/desktop/js/return-process-search-dialog.js"
+        ],
+        "css": [
+            "src/_common/_lib/cybozu/css/51-us-default.css",
+            "https://js.cybozu.com/jqueryui/1.12.1/themes/smoothness/jquery-ui.css",
+            "https://js.cybozu.com/font-awesome/v5.15.3/css/fontawesome.min.css",
+            "src/_common/_lib/popModal/css/popModal_cstm.css",
+            "src/キーマン管理/desktop/css/nayose.css",
+            "src/_common/_func/like-kanren-record/desktop/css/like-kanren-record.css",
+            "src/_common/_func/single-search-dialog/desktop/css/single-search-dialog.css"
+        ]
+    },
+    "mobile": {
+        "js": [
+            "src/_common/_lib/sweetAlert2/js/sweetalert2@9.min.js",
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/_lib/jQuery/js/jquery.tabslet.min.js",
+            "src/_common/_lib/jQuery/js/jquery-ui.min.js",
+            "src/_common/_lib/bootstrap/js/bootstrap-datepicker.min.js",
+            "src/_common/_lib/bootstrap/js/bootstrap-datepicker.ja.min.js",
+            "src/_common/_lib/luxon/js/luxon-3.1.1.min.js",
+            "src/_common/_lib/spin/js/spin.min.js",
+            "src/_common/_lib/popModal/js/popModal.min.js",
+            "src/_common/dev/conf/config.nok.js",
+            "src/キーマン管理/mobile/js/mobile.keyman.js",
+            "src/キーマン管理/mobile/js/mobile.layerHistory.js",
+            "src/キーマン管理/conf/config.keyman-single-search-dialog.js",
+            "src/_common/_func/single-search-dialog/mobile/js/mobile.single-search-dialog.js"
+        ],
+        "css": [
+            "src/_common/_lib/cybozu/css/51-us-default.css",
+            "src/_common/_lib/popModal/css/popModal_cstm.css",
+            "src/_common/_func/single-search-dialog/mobile/css/mobile.single-search-dialog.css"
+        ]
+    }
+}

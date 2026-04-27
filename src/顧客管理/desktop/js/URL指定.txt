@@ -1,0 +1,1 @@
+https://js.cybozu.com/font-awesome/v5.15.3/js/all.min.js

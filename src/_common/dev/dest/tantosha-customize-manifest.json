@@ -1,0 +1,26 @@
+{
+    "app": "100",
+    "scope": "ALL",
+    "desktop": {
+        "js": [
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/dev/conf/config.nok.js",
+            "src/担当者/conf/config.tantosha-customSearch.js",
+            "src/担当者/desktop/js/tantosha.js",
+            "src/_common/_func/kintone-customSearch/desktop/js/kintone-customSearch.js"
+        ],
+        "css": [
+            "src/_common/_lib/cybozu/css/51-us-default.css"
+        ]
+    },
+    "mobile": {
+        "js": [
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/dev/conf/config.nok.js",
+            "src/担当者/mobile/js/mobile.tantosha.js"
+        ],
+        "css": [
+            "src/_common/_lib/cybozu/css/51-us-default.css"
+        ]
+    }
+}

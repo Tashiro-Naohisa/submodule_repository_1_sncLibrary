@@ -1,0 +1,194 @@
+/**
+ * NICE営業物語 on kintone (訪問計画)
+ * @author SNC
+ * @version 3.5.0
+ * @customer XXXXX（yyyy-mm-dd）
+ */
+
+/** テーブル **/
+table#hk_table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+#hk_head, #hk_tbody {
+    display: block;
+}
+
+
+#hk_head th, #hk_tbody td{
+    width: 100px;
+}
+
+#hk_head{
+    padding-right: 20px;
+}
+
+#hk_tbody {
+    overflow-y: scroll;
+    height: 800px;
+}
+
+.hk_midashi {
+    border-color: #ffffff;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-left-width: 1px;
+    border-left-style: solid;
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #002D59;
+    line-height: 49px;
+    text-align: center;
+    padding-left: 2px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 2px;
+}
+
+.weekday {
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-color: #ffffff;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-left-width: 1px;
+    border-left-style: solid;
+    font-weight: normal;
+    color: #222222;
+    text-align: center;
+}
+.saturday {
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-color: #ffffff;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-left-width: 1px;
+    border-left-style: solid;
+    font-weight: normal;
+    color: #222222;
+    text-align: center;
+}
+.sunday {
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-color: #ffffff;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-left-width: 1px;
+    border-left-style: solid;
+    font-weight: normal;
+    color: #222222;
+    text-align: center;
+}
+.holiday {
+    border-spacing: 0;
+    border-collapse: collapse;
+    border-color: #ffffff;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-left-width: 1px;
+    border-left-style: solid;
+    font-weight: normal;
+    color: #222222;
+    text-align: center;
+}
+
+
+tbody#hk_tbody {
+    padding-bottom: 14px;
+    padding-top: 8px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 49px;
+}
+tbody#hk_tbody td {
+    border-color: #ffffff;
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-bottom-style: solid;
+}
+tbody#hk_tbody tr:nth-child(2n+1) {
+    background: #F7F9FA;
+}
+tbody#hk_tbody tr:nth-child(2n) {
+    background: #F0F2F3;
+}
+
+.is-inline.input-radio-cybozu,.is-inline.input-checkbox-cybozu,.is-inline.gaia-print-status-checkbox{
+    display:inline-block;
+    height:24px
+}
+.control-gaia .input-radio-cybozu,.control-gaia .input-checkbox-cybozu{
+    border:1px solid #e3e7e8;
+    padding:8px 0 0 4px;
+    white-space:nowrap
+}
+.hk_today{
+    border-left: dotted 2px;
+}
+.submitButton {
+    font-family: "メイリオ","Hiragino Kaku Gothic ProN",Meiryo,sans-serif;
+    border: 1px solid #E3E7E8;
+    background-color: #3498DB;
+    box-shadow: 1px 1px 1px #8CCBEE inset;
+    color: #FFF;
+    width: 90px;
+    height: 48px;
+}
+.submitButton:hover {
+    border: 1px solid #E3E7E8;
+    background-color: #4682b4;
+    box-shadow: 1px 1px 1px #8CCBEE inset;
+    color: #FFF;
+    width: 90px;
+    height: 48px;
+}
+.hk_color {
+    background-color: #AFEEEE;
+}
+.monthArea {
+    text-align: center;
+    vertical-align: middle;
+}
+.headerArea {
+    width: 10%;
+    text-align: center;
+    vertical-align: middle;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-size: 20px;
+}
+/* ページャーの設定 */
+#preButton,#nextButton{
+    background-color: #fff;
+    font-size: 20px;
+    color: #aaa;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#preButton :hover,
+#preButton .active,
+#nextButton :hover,
+#nextButton .active{
+  color: #3498db;
+  background: #fff;
+}
+
+
+

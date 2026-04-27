@@ -1,0 +1,94 @@
+/**
+ * @author SNC
+ * @version 3.5.0
+ * @customer XXXXX（yyyy-mm-dd）
+ */
+@CHARSET "UTF-8";
+.unit-button {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.unit-button a {
+	display: inline-block;
+	margin: 0 1em 0;
+	padding: .5em 1em .4em;
+	background-color: #aaaaaa;
+	border-radius: 4px;
+	box-shadow: 0 3px 0 rgba(136,136,136,1);
+	color: #ffffff;
+	font-size: 14px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 20px;
+}
+
+.unit-button a:hover {
+	margin: -1px 1em 1px;
+	box-shadow: 0 4px 0 rgba(136,136,136,1);
+}
+
+.unit-button a:active {
+	margin: 2px 1em -2px;
+	box-shadow: 0 1px 0 rgba(136,136,136,1);
+}
+
+.unit-button-disabled a, .unit-button-disabled a:hover, .unit-button-disabled a:active {
+	margin: 0 1em 0;
+	background: #EEEEEE;
+	box-shadow: 0 3px 0 rgba(214,214,214,1);
+	color: #aaaaaa;
+	cursor: not-allowed;
+}
+
+.unit-button-danger a {
+	background-color: #f5494e;
+	box-shadow: 0 3px 0 #b82327;
+}
+
+.unit-button-danger a:hover {
+	box-shadow: 0 4px 0 #b82327;
+}
+
+.unit-button-danger a:active {
+	box-shadow: 0 1px 0 #b82327;
+}
+
+.unit-button-danger.unit-button-disabled a, .unit-button-danger.unit-button-disabled a:hover, .unit-button-danger.unit-button-disabled a:active {
+	background: #EFAAAC;
+	box-shadow: 0 3px 0 #D27578;
+	color: #FFFFFF;
+}
+
+.unit-text-over-flow {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	-webkit-text-overflow: ellipsis; /* Safari */
+	-o-text-overflow: ellipsis; /* Opera */
+	white-space: nowrap;
+}
+
+.ui-dialog-title{
+	font-size: 16px;
+}
+
+
+/* 名寄せダイアログボックス #dialog_pain */
+#dialog_pain #pains {
+	width: 972px;
+	margin: 0;
+	padding: 0;
+}
+#dialog_pain #pains div#pain_left,
+#dialog_pain #pains div#pain_right {
+	float: left;
+	width: 410px;
+	border: solid 1px #aaa;
+	border-radius: 4px;
+	padding: 10px;
+	margin: 2px;
+	text-align: center;
+}
+#dialog_pain #pains dl {
+	text-align: left;
+}

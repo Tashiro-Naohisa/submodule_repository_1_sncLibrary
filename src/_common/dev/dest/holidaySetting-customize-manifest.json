@@ -1,0 +1,12 @@
+{
+    "app": "108",
+    "scope": "ALL",
+    "desktop": {
+        "js": [],
+        "css": []
+    },
+    "mobile": {
+        "js": [],
+        "css": []
+    }
+}

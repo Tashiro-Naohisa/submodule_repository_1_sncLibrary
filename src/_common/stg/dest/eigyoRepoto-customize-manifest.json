@@ -1,0 +1,75 @@
+{
+    "app": "145",
+    "scope": "ALL",
+    "desktop": {
+        "js": [
+            "src/_common/_lib/sweetAlert2/js/sweetalert2@9.min.js",
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/_lib/jQuery/js/jquery.tabslet.min.js",
+            "src/_common/_lib/bootstrap/js/bootstrap-datepicker.min.js",
+            "src/_common/_lib/bootstrap/js/bootstrap-datepicker.ja.min.js",
+            "src/_common/_lib/popModal/js/popModal.min.js",
+            "src/_common/_lib/luxon/js/luxon-3.1.1.min.js",
+            "src/_common/_lib/FullCalendar/js/fullcalendar.min.js",
+            "src/_common/_lib/scheduler/js/scheduler.min.js",
+            "src/_common/_lib/lang-all/js/lang-all.js",
+            "src/_common/dev/conf/config.nok.js",
+            "src/営業レポート/conf/config.eigyoRepoto-customSearch.js",
+            "src/営業レポート/conf/config.eigyoRepoto-schedule.js",
+            "src/営業レポート/conf/config.eigyoRepoto-kokyakuLinkage.js",
+            "src/営業レポート/conf/config.anken-process.js",
+            "src/営業レポート/conf/config.eigyoRepoto-ankenLinkage.js",
+            "src/_common/_func/eigyo-kokyaku-linkage/desktop/js/eigyoRepoto-kokyakuLinkage.js",
+            "src/営業レポート/desktop/js/eigyoRepoto.js",
+            "src/営業レポート/desktop/js/eigyoRepoto-anken.js",
+            "src/営業レポート/desktop/js/eigyoRepoto-ankenLinkage.js",
+            "src/_common/_func/kintone-customSearch/desktop/js/kintone-customSearch.js",
+            "src/営業レポート/desktop/js/eigyoRepoto-schedule.js",
+            "src/営業レポート/conf/config.eigyoRepoto-single-search-dialog.js",
+            "src/_common/_func/single-search-dialog/desktop/js/single-search-dialog.js",
+            "src/営業レポート/conf/config.eigyoRepoto-multiple-search-dialog.js",
+            "src/_common/_func/multiple-search-dialog/desktop/js/multiple-search-dialog.js"
+        ],
+        "css": [
+            "src/_common/_lib/cybozu/css/51-us-default.css",
+            "src/_common/_lib/FullCalendar/css/fullcalendar.min.css",
+            "src/_common/_lib/scheduler/css/scheduler.min.css",
+            "src/_common/_lib/bootstrap/css/bootstrap-datepicker.standalone-1.8.0.min.css",
+            "src/_common/_lib/popModal/css/popModal_cstm.css",
+            "src/_common/_func/single-search-dialog/desktop/css/single-search-dialog.css",
+            "src/_common/_func/multiple-search-dialog/desktop/css/multiple-search-dialog.css",
+            "src/_common/_lib/scheduler/css/schedule-color.css",
+            "src/_common/_lib/customer/css/customer.css"
+        ]
+    },
+    "mobile": {
+        "js": [
+            "src/_common/_lib/sweetAlert2/js/sweetalert2@9.min.js",
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/_lib/jQuery/js/jquery.tabslet.min.js",
+            "src/_common/_lib/bootstrap/js/bootstrap-datepicker.min.js",
+            "src/_common/_lib/bootstrap/js/bootstrap-datepicker.ja.min.js",
+            "src/_common/_lib/luxon/js/luxon-3.1.1.min.js",
+            "src/_common/_lib/popModal/js/popModal.min.js",
+            "src/_common/dev/conf/config.nok.js",
+            "src/営業レポート/conf/config.eigyoRepoto-kokyakuLinkage.js",
+            "src/営業レポート/conf/config.anken-process.js",
+            "src/営業レポート/conf/config.eigyoRepoto-ankenLinkage.js",
+            "src/_common/_func/eigyo-kokyaku-linkage/mobile/js/mobile.eigyoRepoto-kokyakuLinkage.js",
+            "src/営業レポート/mobile/js/mobile.eigyoRepoto.js",
+            "src/営業レポート/mobile/js/mobile.eigyoRepoto-anken.js",
+            "src/営業レポート/mobile/js/mobile.eigyoRepoto-ankenLinkage.js",
+            "src/営業レポート/conf/config.eigyoRepoto-single-search-dialog.js",
+            "src/_common/_func/mobile/js/mobile.single-search-dialog.js",
+            "src/営業レポート/conf/config.eigyoRepoto-multiple-search-dialog.js",
+            "src/_common/_func/mobile/js/mobile.multiple-search-dialog.js"
+        ],
+        "css": [
+            "src/_common/_lib/cybozu/css/51-us-default.css",
+            "src/_common/_lib/bootstrap/css/bootstrap-datepicker.standalone-1.8.0.min.css",
+            "src/_common/_lib/popModal/css/popModal_cstm.css",
+            "src/_common/_func/single-search-dialog/mobile/css/single-search-dialog.css",
+            "src/_common/_func/multiple-search-dialog/mobile/css/multiple-search-dialog.css"
+        ]
+    }
+}

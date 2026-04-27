@@ -1,0 +1,24 @@
+{
+    "app": "98",
+    "scope": "ALL",
+    "desktop": {
+        "js": [
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/_lib/luxon/js/luxon-3.1.1.min.js",
+            "src/_common/_lib/datepicker/js/datepicker-1.0.10.min.js",
+            "src/_common/_lib/datepicker/js/datepicker-1.0.10.ja-JP.js",
+            "src/_common/dev/conf/config.nok.js",
+            "src/予算・実績管理/conf/config.yojitsu.js",
+            "src/予算・実績管理/desktop/js/yojitsu.js"
+        ],
+        "css": [
+            "src/_common/_lib/cybozu/css/51-us-default.css",
+            "src/_common/_lib/datepicker/css/datepicker-1.0.10.min.css",
+            "src/予算・実績管理/desktop/css/yojitsu-view.css"
+        ]
+    },
+    "mobile": {
+        "js": [],
+        "css": []
+    }
+}

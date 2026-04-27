@@ -1,0 +1,36 @@
+{
+    "app": "112",
+    "scope": "ALL",
+    "desktop": {
+        "js": [
+            "src/_common/_lib/sweetAlert2/js/sweetalert2@9.min.js",
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/_lib/datepicker/js/datepicker-1.0.10.min.js",
+            "src/_common/_lib/datepicker/js/datepicker-1.0.10.ja-JP.js",
+            "src/_common/dev/conf/config.nok.js",
+            "src/グラフ管理/conf/config.graph.js",
+            "src/グラフ管理/desktop/js/graph-main.js",
+            "src/グラフ管理/desktop/js/graph.js"
+        ],
+        "css": [
+            "src/_common/_lib/sweetAlert2/css/sweetalert2.min.css",
+            "src/_common/_lib/datepicker/css/datepicker-1.0.10.min.css"
+        ]
+    },
+    "mobile": {
+        "js": [
+            "src/_common/_lib/sweetAlert2/js/sweetalert2@9.min.js",
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/_lib/datepicker/js/datepicker-1.0.10.ja-JP.js",
+            "src/_common/_lib/datepicker/js/datepicker-1.0.10.min.js",
+            "src/_common/dev/conf/config.nok.js",
+            "src/グラフ管理/conf/config.graph.js",
+            "src/グラフ管理/mobile/js/graph-main.js",
+            "src/グラフ管理/mobile/js/mobile.graph.js"
+        ],
+        "css": [
+            "src/_common/_lib/sweetAlert2/css/sweetalert2.min.css",
+            "src/_common/_lib/datepicker/css/datepicker-1.0.10.min.css"
+        ]
+    }
+}

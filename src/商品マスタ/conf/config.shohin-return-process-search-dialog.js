@@ -1,0 +1,32 @@
+/**
+ * @fileoverview ルックアップ共通検索ダイアログ 共通戻り処理 設定情報
+ * @author nakashima
+ * @version 1.0.0
+ * @customer XXXXX（2021-MM-DD）
+ */
+(function (config) {
+    'use strict';
+    // グローバル変数
+    window.retConfig = window.retConfig || {
+
+        // 戻り先ダイアログ情報（複数設定可）
+        config: [
+            // =============================
+            // 1つめのダイアログ用の設定
+            // =============================
+            {
+                // セット対象先アプリのフィールドコード（ルックアップフィールド限定）
+                targetField: 'nok_明細TB_商品検索',
+                // 自アプリのセット対象フィールドコード（※ユニーク値限定）
+                sourceField: 'nok_商品検索コード',
+                // 戻り確認用のチェックボックスフィールドコード（※ユニーク値限定）
+                // フィールドに下記で設定したフィールドコードのチェックボックスを配置してください。
+                checkField: 'nok_見積確認',
+                // ダイアログタイプ　単一:single || 複数:multiple
+                type: 'multiple',
+                // タイプが複数の場合は下記にサブテーブルのフィールドコードをセット（単一の場合はnull）
+                subtableField: 'nok_明細TB',
+            },
+        ]
+    }
+})(window.nokConfig);

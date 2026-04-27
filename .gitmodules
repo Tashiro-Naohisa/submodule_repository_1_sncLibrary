@@ -1,0 +1,3 @@
+[submodule "libs/submodule_repository_2"]
+	path = libs/submodule_repository_2
+	url = https://github.com/Tashiro-Naohisa/submodule_repository_2.git

@@ -1,0 +1,24 @@
+{
+    "app": "111",
+    "scope": "ALL",
+    "desktop": {
+        "js": [
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/dev/conf/config.nok.js",
+            "src/ポータル設定/conf/config.portal-setting.js",
+            "src/ポータル設定/desktop/js/portal-setting-main.js",
+            "src/ポータル設定/desktop/js/portal-setting.js"
+        ],
+        "css": []
+    },
+    "mobile": {
+        "js": [
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/dev/conf/config.nok.js",
+            "src/ポータル設定/conf/config.portal-setting.js",
+            "src/ポータル設定/mobile/js/portal-setting-main.js",
+            "src/ポータル設定/mobile/js/mobile.portal-setting.js"
+        ],
+        "css": []
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "app": "142",
+    "scope": "ALL",
+    "desktop": {
+        "js": [
+            "src/_common/_lib/sweetAlert2/js/sweetalert2@9.min.js",
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/_lib/FontAwesome/js/all-6.4.2.min.js",
+            "src/_common/_lib/luxon/js/luxon-3.1.1.min.js",
+            "src/_common/_lib/snc/js/common.utils.js",
+            "src/_common/_lib/snc/js/setupConfig.js",
+            "src/顧客管理/conf/config.eigyoRepoto-kokyakuLinkage.js",
+            "src/_common/_func/eigyo-kokyaku-linkage/desktop/js/kokyakuLinkage.js",
+            "src/顧客管理/desktop/js/kokyaku.js",
+            "src/顧客管理/desktop/js/kokyaku-nayose.js",
+            "src/_common/_func/return-process-search-dialog/desktop/js/return-process-search-dialog.js",
+            "src/_common/_lib/tab/js/tab.js"
+        ],
+        "css": [
+            "src/_common/_lib/sweetAlert2/css/sweetalert2.min.css",
+            "src/_common/_lib/snc/css/common.css",
+            "src/顧客管理/desktop/css/kokyaku-nayose.css",
+            "src/_common/_lib/tab/css/tab.css"
+        ]
+    },
+    "mobile": {
+        "js": [
+            "src/_common/_lib/sweetAlert2/js/sweetalert2@9.min.js",
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/_lib/snc/js/common.utils.js",
+            "src/_common/_lib/snc/js/setupConfig.js",
+            "src/顧客管理/mobile/js/mobile.kokyaku.js"
+        ],
+        "css": [
+            "src/_common/_lib/sweetAlert2/css/sweetalert2.min.css",
+            "src/_common/_lib/snc/css/common.css",
+            "src/_common/_lib/tab/css/tab.css"
+        ]
+    }
+}

@@ -1,0 +1,3 @@
+https://js.cybozu.com/jqueryui/1.12.1/themes/smoothness/jquery-ui.css
+
+https://js.cybozu.com/font-awesome/v5.15.3/css/fontawesome.min.css

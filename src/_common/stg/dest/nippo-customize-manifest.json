@@ -1,0 +1,34 @@
+{
+    "app": "149",
+    "scope": "ALL",
+    "desktop": {
+        "js": [
+            "src/_common/_lib/sweetAlert2/js/sweetalert2@9.min.js",
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/_lib/jQuery/js/jquery.tabslet.min.js",
+            "src/_common/_lib/bootstrap/js/bootstrap-datepicker.min.js",
+            "src/_common/_lib/bootstrap/js/bootstrap-datepicker.ja.min.js",
+            "src/_common/_lib/luxon/js/luxon-3.1.1.min.js",
+            "src/_common/_lib/popModal/js/popModal.min.js",
+            "src/_common/dev/conf/config.nok.js",
+            "src/営業レポート/conf/config.nippo-customSearch.js",
+            "src/営業レポート/conf/config.nippo-eigyoRepotoLinkage.js",
+            "src/営業レポート/conf/config.eigyoRepoto-kokyakuLinkage.js",
+            "src/営業レポート/conf/config.nippo-multiple-search-dialog.js",
+            "src/営業レポート/desktop/js/nippo.js",
+            "src/_common/_func/eigyo-kokyaku-linkage/desktop/js/eigyoRepoto-kokyakuLinkage.js",
+            "src/_common/_func/kintone-customSearch/desktop/js/kintone-customSearch.js",
+            "src/_common/_func/multiple-search-dialog/desktop/js/multiple-search-dialog.js"
+        ],
+        "css": [
+            "src/_common/_lib/cybozu/css/51-us-default.css",
+            "src/_common/_lib/bootstrap/css/bootstrap-datepicker.standalone-1.8.0.min.css",
+            "src/_common/_lib/popModal/css/popModal_cstm.css",
+            "src/_common/_func/multiple-search-dialog/desktop/css/multiple-search-dialog.css"
+        ]
+    },
+    "mobile": {
+        "js": [],
+        "css": []
+    }
+}

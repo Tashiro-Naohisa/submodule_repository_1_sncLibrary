@@ -1,0 +1,30 @@
+{
+    "app": "110",
+    "scope": "ALL",
+    "desktop": {
+        "js": [
+            "src/_common/_lib/sweetAlert2/js/sweetalert2@9.min.js",
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/dev/conf/config.nok.js",
+            "src/メニュー管理/conf/config.menu.js",
+            "src/メニュー管理/desktop/js/menu-main.js",
+            "src/メニュー管理/desktop/js/menu.js"
+        ],
+        "css": [
+            "src/_common/_lib/sweetalert2/css/sweetalert2.min.css"
+        ]
+    },
+    "mobile": {
+        "js": [
+            "src/_common/_lib/sweetAlert2/js/sweetalert2@9.min.js",
+            "src/_common/_lib/jQuery/js/jquery.min.js",
+            "src/_common/dev/conf/config.nok.js",
+            "src/メニュー管理/conf/config.menu.js",
+            "src/メニュー管理/mobile/js/menu-main.js",
+            "src/メニュー管理/mobile/js/mobile.menu.js"
+        ],
+        "css": [
+            "src/_common/_lib/sweetalert2/css/sweetalert2.min.css"
+        ]
+    }
+}
